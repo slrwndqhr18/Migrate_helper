@@ -16,13 +16,13 @@ But I will make this code for every cases(in case for not using "ERD Editor")
 - Uses YAML-based configuration for flexible mapping
 
 ## Project Structure
-├── handlers \n
-│ ├── excel.go // Excel parsing logic \n
-│ └── utils.go // Utility functions \n
-├── format \n
-│ └── format.go // Core data structures (Format, __excelData, etc.) \n
-├── config \n
-│ └── map_config.yaml // Column-to-entity mapping configuration \n
+├── handlers
+│ ├── excel.go // Excel parsing logic
+│ └── utils.go // Utility functions
+├── format
+│ └── format.go // Core data structures (Format, __excelData, etc.)
+├── config
+│ └── map_config.yaml // Column-to-entity mapping configuration
 
 ## How It Works
 
