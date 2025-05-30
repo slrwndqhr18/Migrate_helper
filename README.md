@@ -50,6 +50,6 @@ cd Migrate_helper
 go run main.go <OPTION>
 ```
 Feel free to customize. Feel free to share any feedback or report issues anytime !!! <br/>
-Feel free to [open an issue]([https://github.com/your-username/migration_helper](https://github.com/slrwndqhr18/Migrate_helper/issues) <br/>
-or start a [discussion]([https://github.com/your-username/migration_helper](https://github.com/slrwndqhr18/Migrate_helper/discussions) <br/>
+Feel free to [open an issue](https://github.com/slrwndqhr18/Migrate_helper/issues) <br/>
+or start a [discussion](https://github.com/slrwndqhr18/Migrate_helper/discussions) <br/>
 You don't need write access to participate — everyone is welcome!
