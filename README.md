@@ -1,9 +1,12 @@
 # Migrate_helper
 A Go-based Excel-to-Database & (MSSQL)SQL file-to-Database Migration Tool  
 
-I made this for flexible migration pipeline. 
-Now, this code is for VScode extention "ERD Editor". It will be usefull with this extention.
-But I will make this code for every cases(in case for not using "ERD Editor")
+I originally created this for a flexible migration pipeline.
+Currently, the code is designed to work with the "ERD Editor" extension for VS Code, and it can be quite useful when used together.
+
+While "ERD Editor" is a great tool, it can be tricky at times—such as adding schema names in front of table names in MSSQL.
+
+That's why I decided to develop this code: to support more use cases, even when "ERD Editor" isn't used.
 
 ## Features
 
@@ -45,5 +48,8 @@ There are now 4 main functions, defined in /MigrateHelper/pipeline.go
 git clone https://github.com/slrwndqhr18/Migrate_helper.git
 cd Migrate_helper
 go run main.go <OPTION>
-
-Feel free to customize. Feel free to share any feedback or report issues anytime !!!
+```
+Feel free to customize. Feel free to share any feedback or report issues anytime !!! <br/>
+Feel free to [open an issue]([https://github.com/your-username/migration_helper](https://github.com/slrwndqhr18/Migrate_helper/issues) <br/>
+or start a [discussion]([https://github.com/your-username/migration_helper](https://github.com/slrwndqhr18/Migrate_helper/discussions) <br/>
+You don't need write access to participate — everyone is welcome!
