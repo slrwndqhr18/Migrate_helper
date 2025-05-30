@@ -1,0 +1,26 @@
+filePathList:
+  logDir: ./files/log
+  migrateData: ./files/testData/lawMan.xlsx
+  formatFile: ./format.yaml
+  sqlFile: ./files/new_database.sql
+  newFormatFile: ./files/output/format.yaml
+  newPyModelFile: ./files/output/model.py
+  newPyInitFile: ./files/output/__init__.py
+databaseInfo:
+  type: mssql
+  runAs: noTransaction #noTransaction, dryRun, default(Transaction)
+  db_and_schema: "database.schema"
+  connInfo:
+  #connInfo: sqlserver://NewsUser:lawDB@2015@192.168.1.62:1433?database=NewLaw
+  currentSqlFile: ./files/database.sql
+  maxInsertRows: 1
+mapTableAndSchema:
+  default:
+    schema: database.schema
+    orm: SNAKE
+  ExampleTable:
+    ignore: true
+allowedQueryError:
+  - "mssql: There is already an object named"
+  - "sql: no rows in result set"
+immortalTableList: [] #기능 추가 필요

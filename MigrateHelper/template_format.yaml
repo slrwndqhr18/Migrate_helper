@@ -1,0 +1,5 @@
+format:
+- name: database.schema.table
+    src: testdata.xlsx
+    struct:
+      tableColumnName: excelColumnName|Type
