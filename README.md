@@ -24,11 +24,11 @@ There are now 4 main functions, defined in /MigrateHelper/pipeline.go
 ├── pipeline.go           // defines all main functions. You only need to use functions in this file.<br/>
 ├── Template_config.yaml  // example of pipeline configuration file<br/>
 ├── Template_config.yaml  // example of format file (Like mssql format file). Maps excel - DB<br/>
-├── Handlers<br/>         // Utility
+├── Handlers<br/>         // Utility <br/>
 │ ├── handle_db.go        // handles only DB related functions (ex DB connection)<br/>
 │ └── handle_files.go     // file I/O related functions<br/>
 │ └── handle_logs.go      // logger (recored & make log files)<br/>
-├── Compiler<br/>         // Defines model
+├── Compiler<br/>         // Defines model <br/>
 │ └── excel.go            // Codes for handle excel file<br/>
 │ └── mssql.go            // Codes for handle MSSQL SQL file<br/>
 │ └── sqlalchemy.go       // Codes for generate sqlalchemy codes automatically
